@@ -15,6 +15,18 @@
 		2046B2FA23D1BF3B00C36125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2046B2F823D1BF3B00C36125 /* LaunchScreen.storyboard */; };
 		2046B30523D1BF3C00C36125 /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B30423D1BF3C00C36125 /* NewsAppTests.swift */; };
 		2046B31023D1BF3C00C36125 /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B30F23D1BF3C00C36125 /* NewsAppUITests.swift */; };
+		2046B32B23D1C3F500C36125 /* HeadlinesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B32923D1C3F500C36125 /* HeadlinesListViewController.swift */; };
+		2046B32C23D1C3F500C36125 /* HeadlinesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2046B32A23D1C3F500C36125 /* HeadlinesListViewController.xib */; };
+		2046B32E23D1C42A00C36125 /* HeadlineListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B32D23D1C42A00C36125 /* HeadlineListCoordinator.swift */; };
+		2046B33023D1C44D00C36125 /* HeadlineListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B32F23D1C44D00C36125 /* HeadlineListInteractor.swift */; };
+		2046B33223D1C46300C36125 /* HeadlineListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B33123D1C46300C36125 /* HeadlineListService.swift */; };
+		2046B33423D1C47D00C36125 /* HeadlineListFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B33323D1C47D00C36125 /* HeadlineListFormatter.swift */; };
+		2046B33923D1C52400C36125 /* HeadlineDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B33723D1C52400C36125 /* HeadlineDetailViewController.swift */; };
+		2046B33A23D1C52400C36125 /* HeadlineDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2046B33823D1C52400C36125 /* HeadlineDetailViewController.xib */; };
+		2046B33C23D1C53700C36125 /* HeadlineDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B33B23D1C53700C36125 /* HeadlineDetailCoordinator.swift */; };
+		2046B33E23D1C55100C36125 /* HeadlineDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B33D23D1C55100C36125 /* HeadlineDetailInteractor.swift */; };
+		2046B34023D1C56D00C36125 /* HeadlineDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B33F23D1C56D00C36125 /* HeadlineDetailService.swift */; };
+		2046B34223D1C58400C36125 /* HeadlineDetailFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2046B34123D1C58400C36125 /* HeadlineDetailFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		2046B30B23D1BF3C00C36125 /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2046B30F23D1BF3C00C36125 /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		2046B31123D1BF3C00C36125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2046B32923D1C3F500C36125 /* HeadlinesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesListViewController.swift; sourceTree = "<group>"; };
+		2046B32A23D1C3F500C36125 /* HeadlinesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadlinesListViewController.xib; sourceTree = "<group>"; };
+		2046B32D23D1C42A00C36125 /* HeadlineListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineListCoordinator.swift; sourceTree = "<group>"; };
+		2046B32F23D1C44D00C36125 /* HeadlineListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineListInteractor.swift; sourceTree = "<group>"; };
+		2046B33123D1C46300C36125 /* HeadlineListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineListService.swift; sourceTree = "<group>"; };
+		2046B33323D1C47D00C36125 /* HeadlineListFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineListFormatter.swift; sourceTree = "<group>"; };
+		2046B33723D1C52400C36125 /* HeadlineDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineDetailViewController.swift; sourceTree = "<group>"; };
+		2046B33823D1C52400C36125 /* HeadlineDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadlineDetailViewController.xib; sourceTree = "<group>"; };
+		2046B33B23D1C53700C36125 /* HeadlineDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineDetailCoordinator.swift; sourceTree = "<group>"; };
+		2046B33D23D1C55100C36125 /* HeadlineDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineDetailInteractor.swift; sourceTree = "<group>"; };
+		2046B33F23D1C56D00C36125 /* HeadlineDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineDetailService.swift; sourceTree = "<group>"; };
+		2046B34123D1C58400C36125 /* HeadlineDetailFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineDetailFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,9 @@
 		2046B2EC23D1BF3A00C36125 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				2046B34323D1C76600C36125 /* Networking */,
+				2046B31E23D1C32E00C36125 /* HeadlinesListFeature */,
+				2046B31D23D1C32900C36125 /* HeadlineDetailFeature */,
 				2046B2ED23D1BF3A00C36125 /* AppDelegate.swift */,
 				2046B2EF23D1BF3A00C36125 /* SceneDelegate.swift */,
 				2046B2F123D1BF3A00C36125 /* ViewController.swift */,
@@ -126,6 +153,39 @@
 				2046B31123D1BF3C00C36125 /* Info.plist */,
 			);
 			path = NewsAppUITests;
+			sourceTree = "<group>";
+		};
+		2046B31D23D1C32900C36125 /* HeadlineDetailFeature */ = {
+			isa = PBXGroup;
+			children = (
+				2046B34123D1C58400C36125 /* HeadlineDetailFormatter.swift */,
+				2046B33D23D1C55100C36125 /* HeadlineDetailInteractor.swift */,
+				2046B33F23D1C56D00C36125 /* HeadlineDetailService.swift */,
+				2046B33B23D1C53700C36125 /* HeadlineDetailCoordinator.swift */,
+				2046B33723D1C52400C36125 /* HeadlineDetailViewController.swift */,
+				2046B33823D1C52400C36125 /* HeadlineDetailViewController.xib */,
+			);
+			path = HeadlineDetailFeature;
+			sourceTree = "<group>";
+		};
+		2046B31E23D1C32E00C36125 /* HeadlinesListFeature */ = {
+			isa = PBXGroup;
+			children = (
+				2046B33323D1C47D00C36125 /* HeadlineListFormatter.swift */,
+				2046B33123D1C46300C36125 /* HeadlineListService.swift */,
+				2046B32F23D1C44D00C36125 /* HeadlineListInteractor.swift */,
+				2046B32D23D1C42A00C36125 /* HeadlineListCoordinator.swift */,
+				2046B32923D1C3F500C36125 /* HeadlinesListViewController.swift */,
+				2046B32A23D1C3F500C36125 /* HeadlinesListViewController.xib */,
+			);
+			path = HeadlinesListFeature;
+			sourceTree = "<group>";
+		};
+		2046B34323D1C76600C36125 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +292,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2046B32C23D1C3F500C36125 /* HeadlinesListViewController.xib in Resources */,
+				2046B33A23D1C52400C36125 /* HeadlineDetailViewController.xib in Resources */,
 				2046B2FA23D1BF3B00C36125 /* LaunchScreen.storyboard in Resources */,
 				2046B2F723D1BF3B00C36125 /* Assets.xcassets in Resources */,
 				2046B2F523D1BF3A00C36125 /* Main.storyboard in Resources */,
@@ -259,8 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2046B33423D1C47D00C36125 /* HeadlineListFormatter.swift in Sources */,
+				2046B32B23D1C3F500C36125 /* HeadlinesListViewController.swift in Sources */,
+				2046B33223D1C46300C36125 /* HeadlineListService.swift in Sources */,
+				2046B33923D1C52400C36125 /* HeadlineDetailViewController.swift in Sources */,
 				2046B2F223D1BF3A00C36125 /* ViewController.swift in Sources */,
+				2046B33C23D1C53700C36125 /* HeadlineDetailCoordinator.swift in Sources */,
+				2046B33E23D1C55100C36125 /* HeadlineDetailInteractor.swift in Sources */,
+				2046B32E23D1C42A00C36125 /* HeadlineListCoordinator.swift in Sources */,
+				2046B34023D1C56D00C36125 /* HeadlineDetailService.swift in Sources */,
 				2046B2EE23D1BF3A00C36125 /* AppDelegate.swift in Sources */,
+				2046B33023D1C44D00C36125 /* HeadlineListInteractor.swift in Sources */,
+				2046B34223D1C58400C36125 /* HeadlineDetailFormatter.swift in Sources */,
 				2046B2F023D1BF3A00C36125 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
